@@ -1,0 +1,7 @@
+[2025-05-02 22:01:09] AÇÃO: CADASTRO - Usuário: julioc - SUCESSO
+[2025-05-02 22:01:15] AÇÃO: LOGIN - Usuário: julioc - SUCESSO
+[2025-05-02 22:02:00] AÇÃO: CADASTRO - Usuário: admin - SUCESSO
+[2025-05-02 22:02:06] AÇÃO: LOGIN - Usuário: admin - SUCESSO
+[2025-05-02 22:02:13] AÇÃO: CADASTRO - Usuário: julioc - SUCESSO
+[2025-05-02 22:02:18] AÇÃO: LOGIN - Usuário: julioc - FALHA
+[2025-05-02 22:02:24] AÇÃO: LOGIN - Usuário: julioc - SUCESSO
