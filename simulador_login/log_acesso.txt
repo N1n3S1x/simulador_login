@@ -30,3 +30,23 @@
 [2025-05-06 21:40:23] A√á√ÉO: LOGIN - Usu√°rio: arroz - SUCESSO - SELECT * FROM test WHERE usuario ='arroz' AND senha = 'arroz'
 [2025-05-06 21:41:55] A√á√ÉO: LOGIN - Usu√°rio: arroz' -- - FALHA - 
 [2025-05-06 21:42:03] A√á√ÉO: LOGIN - Usu√°rio: arroz - SUCESSO - 
+[2025-05-09 16:03:43] A«√O: LOGIN - Usu·rio: admin - FALHA - 
+[2025-05-09 16:06:00] A«√O: LOGIN - Usu·rio: admin - FALHA - 
+[2025-05-09 16:18:30] A«√O: LOGIN - Usu·rio: julioc - FALHA - 
+[2025-05-09 16:18:32] A«√O: CADASTRO - Usu·rio: julioc - SUCESSO - 
+[2025-05-09 16:18:44] A«√O: LOGIN - Usu·rio: julioc - FALHA - 
+[2025-05-09 16:19:49] A«√O: CADASTRO - Usu·rio: jc - SUCESSO - 
+[2025-05-09 16:19:50] A«√O: LOGIN - Usu·rio: jc - FALHA - 
+[2025-05-09 16:20:00] A«√O: LOGIN - Usu·rio: jc - SUCESSO - 
+[2025-05-09 16:21:01] A«√O: CADASTRO - Usu·rio: jc2 - SUCESSO - 
+[2025-05-09 16:21:03] A«√O: LOGIN - Usu·rio: jc2 - FALHA - 
+[2025-05-09 16:21:11] A«√O: LOGIN - Usu·rio: jc - SUCESSO - 
+[2025-05-09 16:21:46] A«√O: CADASTRO - Usu·rio: asd - SUCESSO - 
+[2025-05-09 16:21:49] A«√O: LOGIN - Usu·rio: asd - FALHA - 
+[2025-05-09 16:21:56] A«√O: LOGIN - Usu·rio: asd - FALHA - 
+[2025-05-09 16:22:04] A«√O: LOGIN - Usu·rio: asd - SUCESSO - 
+[2025-05-09 16:23:06] A«√O: CADASTRO - Usu·rio: asdf - SUCESSO - 
+[2025-05-09 16:23:11] A«√O: LOGIN - Usu·rio: asdf - FALHA - 
+[2025-05-09 16:23:18] A«√O: LOGIN - Usu·rio: asdf - FALHA - 
+[2025-05-09 16:30:21] A«√O: CADASTRO - Usu·rio: adm11 - SUCESSO - 
+[2025-05-09 16:30:24] A«√O: LOGIN - Usu·rio: adm11 - SUCESSO - 
