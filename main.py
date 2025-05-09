@@ -238,7 +238,7 @@ class SistemaLogin(QDialog):
             QMessageBox.warning(self, "Erro", "Usuário ou senha inválidos.")
 
     ''' TODO metod para fazer login de forma encriptada (comentei para evitar duplicação)'''
-    # def fazer_login(self):
+    '''# def fazer_login(self):
     # usuario = self.ui.lineEdit_Usuario.text()
     # senha = self.ui.lineEdit_Senha.text()
     
@@ -272,7 +272,8 @@ class SistemaLogin(QDialog):
     # log = registrar_log(usuario, False, 'LOGIN')
     # self.ui.textBrowser_Log.append(log)
     # QMessageBox.warning(self, "Erro", "Usuário ou senha inválidos.")
-    
+    '''
+   
     def cadastrar_usuario(self):
         usuario = self.ui.lineEdit_Usuario.text()
         senha = self.ui.lineEdit_Senha.text()
@@ -312,7 +313,7 @@ class SistemaLogin(QDialog):
         # self.ui.textBrowser_Log.append(log)
         # QMessageBox.information(self, "Cadastro", f"Usuário '{usuario}' cadastrado com sucesso!")
 
-    ## # Método de cadastro de usuário de forma encriptada (comentei para evitar duplicação)
+    '''## # Método de cadastro de usuário de forma encriptada (comentei para evitar duplicação)
     # def cadastrar_usuario(self):
     #     usuario = self.ui.lineEdit_Usuario.text()
     #     senha = self.ui.lineEdit_Senha.text()
@@ -341,7 +342,7 @@ class SistemaLogin(QDialog):
         
     #     log = registrar_log(usuario, True, 'CADASTRO')
     #     self.ui.textBrowser_Log.append(log)
-    #     QMessageBox.information(self, "Cadastro", f"Usuário '{usuario}' cadastrado com sucesso!")
+    #     QMessageBox.information(self, "Cadastro", f"Usuário '{usuario}' cadastrado com sucesso!")'''
 
 # === Execução principal ===
 def main():
