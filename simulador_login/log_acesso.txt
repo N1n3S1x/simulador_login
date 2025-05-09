@@ -50,3 +50,17 @@
 [2025-05-09 16:23:18] AÇÃO: LOGIN - Usuário: asdf - FALHA - 
 [2025-05-09 16:30:21] AÇÃO: CADASTRO - Usuário: adm11 - SUCESSO - 
 [2025-05-09 16:30:24] AÇÃO: LOGIN - Usuário: adm11 - SUCESSO - 
+[2025-05-09 17:36:17] AÇÃO: CADASTRO - Usuário: admin - FALHA - 
+[2025-05-09 17:36:19] AÇÃO: LOGIN - Usuário: admin - FALHA - 
+[2025-05-09 17:36:22] AÇÃO: LOGIN - Usuário: admin - FALHA - 
+[2025-05-09 17:36:34] AÇÃO: CADASTRO - Usuário: admin1 - SUCESSO - 
+[2025-05-09 17:36:36] AÇÃO: LOGIN - Usuário: admin1 - SUCESSO - 
+[2025-05-09 17:36:40] AÇÃO: LOGIN - Usuário: admin1' -- - FALHA - 
+[2025-05-09 17:37:57] AÇÃO: LOGIN - Usuário: julioc - SUCESSO - 
+[2025-05-09 17:38:03] AÇÃO: LOGIN - Usuário: julioc' -- - FALHA - 
+[2025-05-09 17:38:14] AÇÃO: LOGIN - Usuário: julioc' -- - FALHA - 
+[2025-05-09 17:41:45] AÇÃO: CADASTRO - Usuário: jc - FALHA - 
+[2025-05-09 17:42:03] AÇÃO: LOGIN - Usuário: jc' -- - FALHA - 
+[2025-05-09 17:48:12] AÇÃO: LOGIN - Usuário: admin' -- - FALHA - 
+[2025-05-09 17:48:30] AÇÃO: LOGIN - Usuário: jc' -- - FALHA - 
+[2025-05-09 17:49:23] AÇÃO: LOGIN - Usuário: jc' -- - SUCESSO - SELECT * FROM test WHERE usuario ='jc' --' AND senha = ''

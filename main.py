@@ -224,23 +224,23 @@ class SistemaLogin(QDialog):
         
         result = c.fetchone()
         
-        # if result:
-        #     log = registrar_log(usuario, True, 'LOGIN', query)
-        #     self.ui.textBrowser_Log.append(log)
-        #     QMessageBox.information(self, "Login", "Login bem-sucedido!")
-        # else:
-        #     log = registrar_log(usuario, False, 'LOGIN')
-        #     self.ui.textBrowser_Log.append(log)
-        #     QMessageBox.warning(self, "Erro", "Usuário ou senha inválidos.")
-
-        if usuario in self.usuarios and self.usuarios[usuario] == senha:
-            log = registrar_log(usuario, True, 'LOGIN')
+        if result:
+            log = registrar_log(usuario, True, 'LOGIN', query)
             self.ui.textBrowser_Log.append(log)
             QMessageBox.information(self, "Login", "Login bem-sucedido!")
         else:
             log = registrar_log(usuario, False, 'LOGIN')
             self.ui.textBrowser_Log.append(log)
             QMessageBox.warning(self, "Erro", "Usuário ou senha inválidos.")
+
+        # if usuario in self.usuarios and self.usuarios[usuario] == senha:
+        #     log = registrar_log(usuario, True, 'LOGIN')
+        #     self.ui.textBrowser_Log.append(log)
+        #     QMessageBox.information(self, "Login", "Login bem-sucedido!")
+        # else:
+        #     log = registrar_log(usuario, False, 'LOGIN')
+        #     self.ui.textBrowser_Log.append(log)
+        #     QMessageBox.warning(self, "Erro", "Usuário ou senha inválidos.")
 
     ''' TODO metod para fazer login de forma encriptada (comentei para evitar duplicação)'''
     '''# def fazer_login(self):
