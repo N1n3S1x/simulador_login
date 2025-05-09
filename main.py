@@ -213,6 +213,11 @@ class SistemaLogin(QDialog):
         c = conn.cursor()
       
         query = f"SELECT * FROM test WHERE usuario ='{usuario}' AND senha = '{senha}'"
+        # query = "SELECT * FROM test WHERE usuario = ? AND senha = ?"
+        # c.execute(query, (usuario, senha))
+        # # Forma segura (recomendada)
+        
+        
         print(f"Executando a query: {query}")
         
         c.execute(query)
