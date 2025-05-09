@@ -1,0 +1,32 @@
+[2025-05-02 22:01:09] AÇÃO: CADASTRO - Usuário: julioc - SUCESSO
+[2025-05-02 22:01:15] AÇÃO: LOGIN - Usuário: julioc - SUCESSO
+[2025-05-02 22:02:00] AÇÃO: CADASTRO - Usuário: admin - SUCESSO
+[2025-05-02 22:02:06] AÇÃO: LOGIN - Usuário: admin - SUCESSO
+[2025-05-02 22:02:13] AÇÃO: CADASTRO - Usuário: julioc - SUCESSO
+[2025-05-02 22:02:18] AÇÃO: LOGIN - Usuário: julioc - FALHA
+[2025-05-02 22:02:24] AÇÃO: LOGIN - Usuário: julioc - SUCESSO
+[2025-05-03 22:59:29] AÇÃO: CADASTRO - Usuário: admin - SUCESSO
+[2025-05-03 22:59:33] AÇÃO: LOGIN - Usuário: admin - SUCESSO
+[2025-05-03 23:10:55] AÇÃO: LOGIN - Usuário: admin - SUCESSO
+[2025-05-03 23:11:11] AÇÃO: CADASTRO - Usuário: admin1 - SUCESSO
+[2025-05-03 23:11:16] AÇÃO: LOGIN - Usuário: admin1 - SUCESSO
+[2025-05-03 23:12:02] AÇÃO: LOGIN - Usuário: admin1 - FALHA
+[2025-05-06 19:58:49] AÇÃO: CADASTRO - Usuário: julioc - SUCESSO
+[2025-05-06 20:20:45] AÇÃO: LOGIN - Usuário:  - FALHA
+[2025-05-06 20:22:39] AÇÃO: LOGIN - Usuário: admin - SUCESSO
+[2025-05-06 20:23:44] AÇÃO: LOGIN - Usuário: admin - SUCESSO
+[2025-05-06 20:23:55] AÇÃO: LOGIN - Usuário: admin' -- - FALHA
+[2025-05-06 20:28:21] AÇÃO: LOGIN - Usuário: admin - FALHA
+[2025-05-06 20:31:40] AÇÃO: LOGIN - Usuário:  - FALHA
+[2025-05-06 20:31:49] AÇÃO: LOGIN - Usuário: admin - FALHA
+[2025-05-06 20:33:17] AÇÃO: LOGIN - Usuário: admin - SUCESSO
+[2025-05-06 20:33:25] AÇÃO: LOGIN - Usuário: admin' -- - SUCESSO
+[2025-05-06 20:48:24] AÇÃO: CADASTRO - Usuário: carro - SUCESSO
+[2025-05-06 20:48:35] AÇÃO: LOGIN - Usuário: carro' -- - SUCESSO
+[2025-05-06 21:36:59] AÇÃO: CADASTRO - Usuário: arroz - SUCESSO
+[2025-05-06 21:37:03] AÇÃO: LOGIN - Usuário: arroz - SUCESSO
+[2025-05-06 21:37:14] AÇÃO: LOGIN - Usuário: arroz' -- - SUCESSO
+[2025-05-06 21:40:05] AÇÃO: LOGIN - Usuário: arroz' -- - SUCESSO - SELECT * FROM test WHERE usuario ='arroz' --' AND senha = ''
+[2025-05-06 21:40:23] AÇÃO: LOGIN - Usuário: arroz - SUCESSO - SELECT * FROM test WHERE usuario ='arroz' AND senha = 'arroz'
+[2025-05-06 21:41:55] AÇÃO: LOGIN - Usuário: arroz' -- - FALHA - 
+[2025-05-06 21:42:03] AÇÃO: LOGIN - Usuário: arroz - SUCESSO - 
